@@ -1,0 +1,19 @@
+name: publish site
+on: # 触发条件
+  push: # 当本地的 main 分支被推送到 GitHub 仓库时
+    branches:
+      - main
+  pull_request: # 当 PR 被合并到 main 分支时
+    branches:
+      - main
+
+jobs: # 工作流的具体内容
+  deploy:
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 系统创建一个新的云端虚拟机
+    steps:
+      - uses: actions/checkout@v2 # 首先 checkout 到 main 分支
+      - uses: actions/setup-python@v2 # 安装 Python3 和相关环境
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material # 使用 pip 包管理工具安装 mkdocs-material
+      - run: mkdocs gh-deploy --force # 使用 mkdocs-material 部署到 gh-pages 分支
