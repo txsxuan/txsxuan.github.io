@@ -9,11 +9,13 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-        primary: black
-        accent: cyan
-        toggle:
-          icon: material/brightness-4
-          name: Switch to light mode
-# nav:
-#   - 碎碎念:
-#     - 岁岁念: suisuininan/begin.md
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon: 
+    repo: fontawesome/brands/github #右上角图标
+nav:
+   - 碎碎念:
+     - 岁岁念: suisuininan/begin.md
