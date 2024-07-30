@@ -17,5 +17,9 @@ theme:
   icon: 
     repo: fontawesome/brands/github #右上角图标
 nav:
-   - 碎碎念:
-     - 岁岁念: suisuinian/begin.md
+    - 见闻录: 
+      - 破防的暑期总结(与碎碎念中一致): MyBlogs/Daily_News/End-Of-July.md
+      - bash学习: MyBlogs/Daily _News/Bash.md
+    - 碎碎念:
+      - 岁岁念: suisuinian/begin.md
+      - 暑期小结: MyBlogs/Daily_News/End-Of-July.md
