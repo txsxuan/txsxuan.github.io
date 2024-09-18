@@ -3,9 +3,10 @@
 
 ### 生词部分
 ><font color=CadetBlue>How much overhead is incurred by a function call? </font>函数调用会产生多少开销？<br />
-<font color=CadetBlue>tune </font>  调整
-
-
+<font color=CadetBlue>tune </font>  调整<br />
+<font color=CadetBlue>exploit </font><br />
+v.: 利用, 开发, 剥削, 开采, 应用, 勋绩<br />
+n.: 伟业, 功
 
 ### 番外—— my plan
 
