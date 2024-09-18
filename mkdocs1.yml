@@ -20,6 +20,9 @@ nav:
     - 见闻录: 
       - 破防的暑期总结(与碎碎念中一致): MyBlogs/Daily_News/End_Of_July.md
       - bash学习: MyBlogs/Daily_News/Bash.md
+      - gdb的简单使用: MyBlogs/Daily_News/gdb_basictu_torial.md
+      - PA框架代码学习之宏定义(第一期): docs/MyBlogs/Daily_News/sth_about_marco.md
     - 碎碎念:
       - 岁岁念: suisuinian/begin.md
       - 暑期小结: suisuinian/End_Of_July.md
+      - 开学第一周新的:
